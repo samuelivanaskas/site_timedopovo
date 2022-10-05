@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mainprojeto.css">
+    <title>Corinthians - Time Do Povo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Corinthians</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre o time</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="corinthians-front" src="./corinthians.jpg" alt="emblema do corinthains" />
+            <div>
+                <h2>Sobre Corinthians</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil necessitatibus et, distinctio dicta ullam labore officia ipsa cupiditate fuga amet consequatur minima facere odio totam tempore quod error sint voluptates?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ab, molestias deserunt voluptas nisi excepturi maxime dignissimos aspernatur mollitia iure. Sint in perferendis voluptatum delectus distinctio incidunt deleniti molestias aperiam!
+                </p>
+                <ul class="brand-list">
+                    <li><img src="./corinthians.jpg" alt="Prime Corinthians"></li>
+                    <li><img src="./tv.png" alt="TV Corinthians"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu email" required/>
+                        <input type="número" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem"required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no instagram">
+                                <img src="./instagram.jpg" alt="Logo do Instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./facebook.png" alt="Logo do Facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canl no Youtube">
+                                <img src="./youtube.jpg" alt="Logo do Youtube" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha a nossa loja parceria com todos os produtos do timão</h3>
+                    <p>
+                        Rua Timão, nº77, Parque Corinthians - São Paulo- SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Time do Povo - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
